@@ -5,4 +5,4 @@ metadata:
   labels:
     {{- include "springboot-helm-chart.labels" . | nindent 4 }}
 data:
-    key: "values"
+    {{- toYaml .Values.properties | nindent 4 }}

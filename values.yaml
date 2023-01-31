@@ -4,6 +4,11 @@
 
 replicaCount: 1
 
+# need to be fully qualified
+properties:
+  WELCOME_TEXT: Hello world.
+  NAV_BGCOLOR: lightblue
+
 image:
   repository: public.ecr.aws/viadee/k8s-demo-app
   pullPolicy: IfNotPresent
