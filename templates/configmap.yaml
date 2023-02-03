@@ -5,4 +5,6 @@ metadata:
   labels:
     {{- include "springboot-helm-chart.labels" . | nindent 4 }}
 data:
-    {{- toYaml .Values.properties | nindent 4 }}
+    {{- range $key, $value := .Values.properties }}
+    {{ $key | replace "." "_" | replace "-" "" | upper }}: {{ $value | quote}}
+    {{- end }}
