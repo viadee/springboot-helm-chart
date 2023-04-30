@@ -9,6 +9,9 @@ properties:
   welcome.text: Hello world.
   nav.bgcolor: lightblue
 
+# list of secrets in same namespace which gearet loaded as env variables
+secretRef: []
+
 image:
   repository: public.ecr.aws/viadee/k8s-demo-app
   pullPolicy: IfNotPresent
