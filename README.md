@@ -1,6 +1,6 @@
 # springboot-helm-chart
 
-## Install/deinstall chart
+## Install/uninstall chart
 
 The helm chart can be installed through a helm chart repository hosted on a GitHub page in this repository. To install or deinstall follow the steps:
 
@@ -9,7 +9,7 @@ helm repo add viadee https://viadee.github.io/springboot-helm-chart
 export helm_release_name="viadeeExampleApplication"
 helm install $helm_release_name viadee/springboot-helm-chart
 
-# deinstall
+# uninstall
 helm delete $helm_release_name
 ```
 
