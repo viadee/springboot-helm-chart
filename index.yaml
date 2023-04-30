@@ -3,6 +3,18 @@ entries:
   springboot-helm-chart:
   - apiVersion: v2
     appVersion: 1.2.0
+    created: "2023-04-30T15:38:22.225106451Z"
+    description: Allows to deploy and configure a Spring Boot application in Kubernetes
+    digest: 431b198c66354a205ef2224ee23b6efc7f1b3cdde24449000a47f7d8b381b58c
+    maintainers:
+    - name: Crowdsalat
+    name: springboot-helm-chart
+    type: application
+    urls:
+    - https://github.com/viadee/springboot-helm-chart/releases/download/springboot-helm-chart-1.1.0/springboot-helm-chart-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.2.0
     created: "2023-03-02T13:06:37.950230251Z"
     description: Allows to deploy and configure a Spring Boot application in Kubernetes
     digest: 6e669967c852f632ab5f1850cbc0d4d1b2048b567d3d13fcd6445deb3163c219
@@ -13,4 +25,4 @@ entries:
     urls:
     - https://github.com/viadee/springboot-helm-chart/releases/download/springboot-helm-chart-1.0.2/springboot-helm-chart-1.0.2.tgz
     version: 1.0.2
-generated: "2023-03-02T13:06:37.950234851Z"
+generated: "2023-04-30T15:38:22.225113751Z"
