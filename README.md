@@ -1,5 +1,7 @@
 # springboot-helm-chart
 
+Further information in blog article [Spring Boot Applications with Helm](https://blog.viadee.de/en/spring-boot-applications-with-helm).
+
 ## Install/uninstall chart
 
 The helm chart can be installed through a helm chart repository hosted on a GitHub page in this repository. To install or deinstall follow the steps:
